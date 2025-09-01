@@ -12,12 +12,12 @@ switch ($command) {
     case 'analyse':
         $analyseur = new Analyseur();
         // Call the analyser
-        // $analyseur->run(); // Uncomment to execute the analysis
+        $analyseur->run(); // Uncomment to execute the analysis
         break;
     case 'refactor':
         $refactoriseur = new Refactoriseur();
         // Call the refactorer
-        // $refactoriseur->run(); // Uncomment to execute the refactoring
+        $refactoriseur->run(); // Uncomment to execute the refactoring
         break;
     default:
         echo 'Commande non reconnue.';
