@@ -1,0 +1,22 @@
+#!/usr/bin/env php
+<?php
+
+require 'vendor/autoload.php';
+
+use App\Analyseur;
+use App\Refactoriseur;
+
+$command = $argv[1] ?? '';
+
+switch ($command) {
+    case 'analyse':
+        $analyseur = new Analyseur();
+        // Appel à l'analyseur
+        break;
+    case 'refactor':
+        $refactoriseur = new Refactoriseur();
+        // Appel au refactoriseur
+        break;
+    default:
+        echo 'Commande non reconnue.';
+}
