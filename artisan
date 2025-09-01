@@ -11,11 +11,13 @@ $command = $argv[1] ?? '';
 switch ($command) {
     case 'analyse':
         $analyseur = new Analyseur();
-        // Appel à l'analyseur
+        // Call the analyser
+        // $analyseur->run(); // Uncomment to execute the analysis
         break;
     case 'refactor':
         $refactoriseur = new Refactoriseur();
-        // Appel au refactoriseur
+        // Call the refactorer
+        // $refactoriseur->run(); // Uncomment to execute the refactoring
         break;
     default:
         echo 'Commande non reconnue.';
