@@ -8,4 +8,4 @@ Merci de votre intérêt pour contribuer à ce projet ! Voici quelques étapes p
 4. Poussez votre branche (`git push origin feature/nouvelle-fonctionnalité`).
 5. Créez une Pull Request dans le dépôt d'origine.
 
-Nous apprécions chaque contribution !
+Nous apprécions chaque contribution ! N'hésitez pas à poser des questions si vous avez besoin d'aide.
